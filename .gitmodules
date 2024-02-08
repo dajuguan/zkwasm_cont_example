@@ -1,0 +1,12 @@
+[submodule "go"]
+	path = go
+	url = https://github.com/ethstorage/go.git
+	branch = zkGo
+[submodule "zkWasm"]
+	path = zkWasm
+	url = https://github.com/ethstorage/zkWasm.git
+	branch = zhangjunyu/cont
+[submodule "continuation-batcher"]
+	path = continuation-batcher
+	url = https://github.com/DelphinusLab/continuation-batcher.git
+	branch = polish-structure
