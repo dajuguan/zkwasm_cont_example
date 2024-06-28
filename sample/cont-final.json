@@ -1,0 +1,13 @@
+{
+    "equivalents": [
+    ],
+    "expose": [
+	    {"name": "fibonnaci", "proof_idx": 0, "column_name": "img_col"}
+    ],
+    "absorb": [
+	    {
+		    "instance_idx": {"name": "fibonnaci", "proof_idx": 1, "group_idx": 2}, 
+		    "target": {"name": "fibonnaci", "proof_idx": 0, "column_name": "post_img_col"}
+	    }
+    ]
+}
