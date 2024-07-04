@@ -13,7 +13,7 @@ WASM_FILE=$WKDIR/zkWasm/crates/zkwasm/wasm/fibonacci.wasm
 
 # Proving smoke_test of op-program client wasm image
 # RUST_LOG=info $ZKWASM --params ${WKDIR}/params fibonnaci setup -k 22
-# RUST_LOG=info $ZKWASM --params ${WKDIR}/params fibonnaci prove  --output ${WKDIR}/output --wasm $WASM_FILE  --public 25:i64 --file
+RUST_LOG=info $ZKWASM --params ${WKDIR}/params fibonnaci prove  --output ${WKDIR}/output --wasm $WASM_FILE  --public 26:i64 --file
 
 
 ## circuit batcher
