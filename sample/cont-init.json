@@ -2,8 +2,8 @@
     "equivalents": [
     ],
     "expose": [
-	    {"name": "fibonnaci", "proof_idx": 0, "column_name": "context_output"},
-	    {"name": "fibonnaci", "proof_idx": 0, "column_name": "img_col"}
+        {"name": "single", "proof_idx": 0, "column_name": "context_output"},
+	    {"name": "single", "proof_idx": 0, "column_name": "img_col"}
     ],
     "absorb": []
 }

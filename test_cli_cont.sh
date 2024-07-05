@@ -25,4 +25,4 @@ BATCH_INFO_FINAL=$WKDIR/sample/cont-final.json
 cd $BATCHER_DIR
 # gen solidity failed, but proof generation succeeds
 # k must be 23, otherwise it'll throws not enough rows
-RUST_BACKTRACE=1 cargo run --features perf,cuda --release -- --param $WKDIR/params --output $WKDIR/output batch -k 23  -s shplonk --challenge sha --info $WKDIR/output/fibonnaci.loadinfo.json --name fib_agg --commits $BATCH_INFO_INIT $BATCH_INFO_RECT $BATCH_INFO_FINAL --cont
+RUST_BACKTRACE=1 cargo run --features perf,cuda --release -- --param $WKDIR/params --output $WKDIR/output batch -k 23  -s shplonk --challenge sha --info $WKDIR/output/fibonnaci.loadinfo.json --name fib_agg --commits $BATCH_INFO_INIT $BATCH_INFO_RECT $BATCH_INFO_FINAL --cont 3
