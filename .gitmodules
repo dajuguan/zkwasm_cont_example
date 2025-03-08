@@ -1,7 +1,7 @@
 [submodule "go"]
 	path = go
 	url = https://github.com/ethstorage/go.git
-	branch = zkGo
+	branch = wasi
 [submodule "zkWasm"]
 	path = zkWasm
 	url = https://github.com/ethstorage/zkWasm.git
@@ -10,3 +10,7 @@
 	path = continuation-batcher
 	url = https://github.com/DelphinusLab/continuation-batcher.git
 	branch = polish-structure
+[submodule "optimism"]
+	path = optimism
+	url = https://github.com/ethstorage/optimism.git
+	branch = smoke_test
