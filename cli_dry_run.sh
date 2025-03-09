@@ -28,6 +28,7 @@ else
     pushd optimism/op-program
     make op-program-client-wasm-smoke-test
     popd
+    cp OP_PROGRAM_CLIENT_WASM ./wasm
 fi
 
 # build zkwasm

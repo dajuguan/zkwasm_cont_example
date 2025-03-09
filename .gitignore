@@ -17,5 +17,5 @@ Cargo.lock
 *.wasm
 
 # Params and roofs 
-output/
+output*/
 params/
