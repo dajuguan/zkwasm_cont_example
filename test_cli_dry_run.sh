@@ -1,7 +1,6 @@
 set -e
 set -x
 GOROOT=${PWD}/go
-#ZKGO=${PWD}/bin/zkgo #can't move it out.
 zkGo=$GOROOT/bin/go
 OP_PROGRAM_CLIENT_WASM=${PWD}/optimism/op-program/bin/op-program-client-test.wasm
 OP_PREIMAGE=${PWD}/wasm/preimages-test.bin
@@ -57,4 +56,5 @@ else
     RUST_LOG=info $ZKWASM --params ./params zkmain setup -k 22
 fi
 
+# zkWasm dry-run: run the op-program-client wasm program with zkWasm emulator in finite field
 RUST_LOG=info $ZKWASM --params ./params zkmain  dry-run --wasm $OP_PROGRAM_CLIENT_WASM --private ${OP_PREIMAGE}:file --output ./outputs
