@@ -8,6 +8,8 @@ ZKWASM=$PWD/zkWasm/target/release/zkwasm-cli
 ZKWASM_CONF=${PWD}/params/zkmain.zkwasm.config
 
 # build zkGo, require current go version ^1.20
+export zkGo=$zkGo
+export GOROOT=$GOROOT
 if [ -f "$zkGo" ]; then
     echo -e "==$zkGo exists. \n"
 else
